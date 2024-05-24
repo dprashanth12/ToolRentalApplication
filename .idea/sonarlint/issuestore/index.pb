@@ -11,3 +11,7 @@ R
 +src/main/java/com/rental/ToolRentalApp.java,6\9\69491675aef37fe0193a6cb1f72926065e69a986
 V
 &src/main/java/com/rental/ToolType.java,3\a\3a062aed46706402bd319b5cbf5efdf375909428
+q
+Asrc/main/java/com/rental/exceptions/InvalidDiscountException.java,9\b\9b849ce25b70a30c9c36425cba8ce854ef09419b
+w
+Gsrc/main/java/com/rental/exceptions/InvalidRentalDayCountException.java,9\e\9e40fe53ede0a933d5bd61f80fb0b9da8833c2ac

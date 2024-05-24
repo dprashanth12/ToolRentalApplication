@@ -1,0 +1,5 @@
+
+ª
+java:S1130	"‡Remove the declaration of thrown exception 'com.rental.exceptions.InvalidDiscountException', as it cannot be thrown from method's body.(¬©Šşÿÿÿÿ8ÙÆ­¼ú1
+°
+java:S1130	"Remove the declaration of thrown exception 'com.rental.exceptions.InvalidRentalDayCountException', as it cannot be thrown from method's body.(¬©Šşÿÿÿÿ8ÚÆ­¼ú1

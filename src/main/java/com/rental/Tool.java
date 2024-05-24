@@ -1,15 +1,18 @@
 package com.rental;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class Tool {
     private String code;
     private ToolType type;
     private String brand;
-
-    public Tool(String code, ToolType type, String brand) {
-        this.code = code;
-        this.type = type;
-        this.brand = brand;
-    }
 
     public String getCode() {
         return code;

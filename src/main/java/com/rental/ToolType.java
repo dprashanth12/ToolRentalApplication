@@ -1,5 +1,8 @@
 package com.rental;
 
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 public enum ToolType {
     LADDER(1.99, true, true, false),
     CHAINSAW(1.49, true, false, true),
@@ -10,12 +13,6 @@ public enum ToolType {
     private boolean weekendCharge;
     private boolean holidayCharge;
 
-    ToolType(double dailyCharge, boolean weekdayCharge, boolean weekendCharge, boolean holidayCharge) {
-        this.dailyCharge = dailyCharge;
-        this.weekdayCharge = weekdayCharge;
-        this.weekendCharge = weekendCharge;
-        this.holidayCharge = holidayCharge;
-    }
 
     public double getDailyCharge() {
         return dailyCharge;
